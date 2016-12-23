@@ -2,7 +2,7 @@ package apartment;
 
 //class concrete
 
-public class cash extends observer {
+public class cash extends Observer {
 
     public cash(subject subject) {
         this.subject = subject;
