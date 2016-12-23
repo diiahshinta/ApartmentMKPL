@@ -19,6 +19,7 @@ public class cicil extends observer {
         System.out.println("\nPEMBAYARAN CICIL");
         System.out.println("Harga yang harus dibayar selama 12x : " + cicil12);
         System.out.println("Harga yang harus dibayar selama 6x  : " + cicil6);
+
     }
 
 }
