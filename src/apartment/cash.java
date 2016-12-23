@@ -14,7 +14,7 @@ public class cash extends observer {
     @Override
     public void update() {
         int hargaUnit = subject.getState();
-        int cash = (hargaUnit - ((20 / 100) * hargaUnit));
+        int cash = (hargaUnit - ((30 / 100) * hargaUnit));
         System.out.println("\nPEMBAYARAN CASH");
         System.out.println("Pembayaran dilakukan melalui resepsionis pada jam kantor\nHarga yang harus dibayar : " + cash + "\nNB : Diskon 10% karena pembayaran secara cash");
     }
