@@ -15,10 +15,11 @@ public class cicil extends observer {
     public void update() {
         int hargaUnit = subject.getState();
         int cicil12 = (hargaUnit / 12);
-        int cicil6 = (hargaUnit / 10);
+        int cicil6 = (hargaUnit / 6);
         System.out.println("\nPEMBAYARAN CICIL");
         System.out.println("Harga yang harus dibayar selama 12x : " + cicil12);
-        System.out.println("Harga yang harus dibayar selama 10x  : " + cicil6);
+        System.out.println("Harga yang harus dibayar selama 6x  : " + cicil6);
+
     }
 
 }
