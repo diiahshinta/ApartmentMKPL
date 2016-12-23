@@ -6,6 +6,9 @@ public class Apartment {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        subject subject = new subject();
+        new cash(subject);
+        new cicil(subject);
         int hargaUnit2BR = 9000000;
         int hargaUnit1BR = 6000000;
         int hargaUnitStudio = 3500000;
@@ -89,7 +92,29 @@ public class Apartment {
                 default:
                     System.out.println("Inputan anda salah!");
             }
-
+System.out.println("\nUnit apartment yang tersedia\n1. Family 2BR\n2. Family 1BR\n3. Studio\n4. Studio Deluxe\nSilhkan inputkan pilihan anda:");
+            System.out.print("-> ");
+            int pilih = input.nextInt();
+            switch (pilih) {
+                case 1:
+                    System.out.println("\nJenis Pembayaran Unit Apartment dengan tipe Family 2BR + Fasilitas VIP");
+                    subject.setState(hargaUnit2BRVIP);
+                    break;
+                case 2:
+                    System.out.println("\nJenis Pembayaran Unit Apartment dengan tipe Family 1BR + Fasilitas VIP");
+                    subject.setState(hargaUnit1BRVIP);
+                    break;
+                case 3:
+                    System.out.println("\nJenis Pembayaran Unit Apartment dengan tipe Studio + Fasilitas VIP");
+                    subject.setState(hargaUnitStudioVIP);
+                    break;
+                case 4:
+                    System.out.println("\nJenis Pembayaran Unit Apartment dengan tipe Studio Deluxe + Fasilitas VIP");
+                    subject.setState(hargaUnitStudioDeluxeVIP);
+                    break;
+                default:
+                    System.out.println("\nInputan anda salah!");
+            }
             
         }
     }
