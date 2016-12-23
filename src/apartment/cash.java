@@ -16,7 +16,7 @@ public class cash extends observer {
         int hargaUnit = subject.getState();
         int cash = (hargaUnit - ((10 / 100) * hargaUnit));
         System.out.println("\nPEMBAYARAN CASH");
-        System.out.println("Pembayaran dilakukan melalui resepsionis pada jam kantor\nHarga yang harus dibayar : " + cash + "\nNB : Diskon 10% karena pembayaran secara cash");
+        System.out.println("Pembayaran dilakukan melalui resepsionis pada jam kantor\nHarga yang harus dibayar : " + cash + "\nNB : Diskon 30% karena pembayaran secara cash");
     }
 
 }
