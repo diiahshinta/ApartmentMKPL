@@ -9,8 +9,8 @@ public class Apartment {
         subject subject = new subject();
         new cash(subject);
         new cicil(subject);
-        int hargaUnit2BR = 9000000;
-        int hargaUnit1BR = 6000000;
+        int hargaUnit2BR = 10000000;
+        int hargaUnit1BR = 5000000;
         int hargaUnitStudio = 3500000;
         int hargaUnitStudioDeluxe = 4000000;
 
